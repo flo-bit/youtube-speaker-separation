@@ -1,10 +1,10 @@
 # youtube speaker separation
 
-this script uses the whisper on [replicate](https://replicate.com/) to download the audio and then separate the speakers in a youtube video.
+this script uses whisper on [replicate](https://replicate.com/) to download the audio and then separate the speakers from a youtube video.
 
-input: youtube url
+- input: youtube url
 
-output: audio files for each speaker, with all spoken parts of that speaker cut together.
+- output: audio files for each speaker, with all spoken parts of that speaker cut together.
 
 this output can then be used to create ai voices for each speaker, for example with instant voice cloning by [elevenlabs](https://elevenlabs.io/) (note: elevenlabs only official allows this for voices that you own the rights to, i don't take any responsibility for any illegal use of this software.)
 
